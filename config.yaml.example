@@ -1,0 +1,43 @@
+yaml
+# ============================================================
+#  PDF2EPUB_magazine - 配置文件
+# ============================================================
+
+# ---------- 默认使用的模型 ----------
+# 可选值: deepseek-vl2 | gpt-4o-mini | gemini-1.5-pro
+model_type: "deepseek-vl2"
+
+# ---------- DeepSeek 配置 ----------
+deepseek:
+  api_key: "your-deepseek-api-key"
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-vl2"
+
+# ---------- OpenAI 配置 ----------
+openai:
+  api_key: "your-openai-api-key"
+  base_url: "https://api.openai.com/v1"
+  model: "gpt-4o-mini"
+
+# ---------- Google Gemini 配置 ----------
+gemini:
+  api_key: "your-gemini-api-key"
+  model: "gemini-1.5-pro"
+
+# ---------- 转换参数 ----------
+conversion:
+  image_dpi: 150           # PDF渲染为图片的DPI
+  max_tokens: 4096         # 单页最大输出token数
+  temperature: 0.1         # 模型温度，越低越稳定
+
+# ---------- 输出设置 ----------
+output:
+  language: "en"           # 电子书语言
+  add_toc: true            # 是否自动生成目录
+
+# ---------- 风格模板设置 ----------
+templates:
+  # 指定各风格使用的模板版本（默认为 "latest"）
+  BRN: "latest"
+  ECON: "latest"
+  BBW: "latest"
