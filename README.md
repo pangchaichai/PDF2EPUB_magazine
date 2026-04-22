@@ -30,3 +30,17 @@ A tool for users to convert .pdf files to .epub or .mobi files, such as magazine
 ```bash
 git clone https://github.com/pangchaichai/PDF2EPUB_magazine.git
 cd PDF2EPUB_magazine
+
+## 🛠️ 附带工具
+
+### PDF 页面提取器 (`tools/extract_pages.py`)
+
+用于从大型 PDF 杂志中提取少量页面作为测试样本，方便调试和 Prompt 优化。
+
+**用法**：
+```bash
+# 提取第 8 至第 10 页，保存为 test_sample.pdf
+python tools/extract_pages.py magazine.pdf 8 10 test_sample.pdf
+
+# 未指定输出文件名时，自动生成 magazine_p8-10.pdf
+python tools/extract_pages.py magazine.pdf 8 10
