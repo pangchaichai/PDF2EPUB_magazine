@@ -1,0 +1,18 @@
+## 🎨 STYLE TEMPLATE: BRN (Financial Multi-Section) v1.0.0
+
+### Visual Signature
+- Dense multi-column layouts (often 3-4 columns on data-heavy pages).
+- Heavy use of financial tables (stock listings, market data).
+- Cover stories with consistent branding across spreads.
+- Dedicated "Market Week" or statistical pullout sections.
+
+### Style-Specific Handling
+- **Financial Tables**: Prioritize accurate numeric extraction. Preserve column alignment and symbols ($, %, etc.).
+- **Stock Tickers**: Format as `**TICKER** (Exchange)`.
+- **Market Data Pages**: Expect multiple distinct tables; separate with `---`.
+- **Cover Story Headlines**: Use `#` for main title, `###` for deck.
+- **Byline Format**: Often appears as `By AUTHOR NAME` below deck.
+
+### Known Quirks
+- Some tables span across facing pages; use continuity markers.
+- Small "Advertisement" labels in corners; ignore entire ad blocks.
