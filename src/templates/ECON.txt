@@ -1,0 +1,17 @@
+## 🎨 STYLE TEMPLATE: ECON (Text-Dense Weekly) v1.0.0
+
+### Visual Signature
+- Highly structured with consistent column grids (usually 2-3 columns).
+- Minimal imagery, text-dense pages.
+- Articles often have a "kicker" (e.g., "Buttonwood", "Schumpeter") above headline.
+- Data-heavy pages (e.g., "Economic & financial indicators") with numerous small tables.
+
+### Style-Specific Handling
+- **Reading Order**: Focus heavily on strict column-by-column extraction.
+- **Kicker**: Preserve as `**KICKER:** text` before headline.
+- **Data Pages**: Extract all visible tables; use `---` between unrelated tables.
+- **Bylines**: Often placed at article end or in small italic at beginning.
+
+### Known Quirks
+- Articles frequently continue on non-consecutive pages; rely on continuity markers.
+- Minimal sidebars; most content is inline.
