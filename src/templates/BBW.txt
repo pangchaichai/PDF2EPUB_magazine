@@ -1,0 +1,16 @@
+## 🎨 STYLE TEMPLATE: BBW (Graphic-Heavy Business) v1.0.0
+
+### Visual Signature
+- Bold, sometimes experimental layouts with infographics dominating.
+- Generous use of color blocks and pull quotes.
+- Grids may be intentionally broken; rely on visual grouping.
+
+### Style-Specific Handling
+- **Infographics**: Mark as `[CHART: brief description]` and extract any visible data.
+- **Pull Quotes**: Prominent, often in large colored text; format as `> "Quote text"`.
+- **Callout Boxes**: Key stats in colored boxes; format as `> 📊 **Key Stat:** content`.
+- **Hero Images**: Large cover images may span spreads; note continuity.
+
+### Known Quirks
+- Text may wrap around irregular shapes; trust visual flow over strict column boundaries.
+- Advertisements may be disguised as editorial content; check for small "Advertisement" labels.
