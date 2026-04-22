@@ -28,5 +28,5 @@ A tool for users to convert .pdf files to .epub or .mobi files, such as magazine
 
 ### 1. 克隆仓库
 ```bash
-git clone https://github.com/yourusername/pdf-magazine-to-epub.git
-cd pdf-magazine-to-epub
+git clone https://github.com/pangchaichai/PDF2EPUB_magazine.git
+cd PDF2EPUB_magazine
