@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Project specific
+config.yaml
+*.epub
+*.mobi
+*.pdf
+debug_page_*.md
+final_book.md
+temp_*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Templates custom (user learned)
+src/templates/custom/*.txt
+!src/templates/custom/.gitkeep
